@@ -734,24 +734,15 @@ SMOOTH MENU ANIMATION
     }
 
 }
-/* ================= MOBILE FIX ALL LANGUAGES ================= */
+/* ===== Fix mobile text alignment only ===== */
 @media (max-width:768px){
 
-/* ปรับพื้นที่ข้อความ */
-.carousel-caption{
-    padding-left:20px !important;
-    padding-right:20px !important;
-}
-
-/* กล่องหัวข้อ */
 .carousel-caption .title{
-    width:100%;
-    max-width:340px;
-    margin:auto !important;
+    margin-top:0 !important;
+    margin-bottom:20px !important;
     text-align:center;
 }
 
-/* จัดกลางทั้งหมด */
 .carousel-caption .title-center{
     display:flex;
     flex-direction:column;
@@ -759,39 +750,21 @@ SMOOTH MENU ANIMATION
     justify-content:center;
 }
 
-/* welcome */
+/* จัดตำแหน่ง welcome */
 .carousel-caption .title-center h5{
-    font-size:18px !important;
-    line-height:22px !important;
     margin-bottom:10px !important;
     text-align:center;
 }
 
-/* NC TREES LEGAL SERVICES */
+/* ทำให้ระดับหัวข้อทุกภาษาเท่ากัน */
 .carousel-caption .title-center h1{
-    font-size:50px !important;
-    line-height:54px !important;
-    font-weight:700 !important;
-    margin-bottom:14px !important;
-    min-height:108px;
+    margin-bottom:15px !important;
+    min-height:2.3em;
     text-align:center;
     word-break:keep-all;
 }
 
-/* เส้นใต้ */
-.carousel-caption .title-center::after{
-    content:"";
-    width:100%;
-    max-width:300px;
-    border-bottom:2px solid #ffffff;
-    display:block;
-    margin-top:6px;
-}
-
-/* ย่อ paragraph ให้ดูสวย */
 .carousel-caption p{
-    font-size:16px;
-    line-height:1.7;
     text-align:center;
 }
 

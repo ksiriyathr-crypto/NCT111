@@ -734,14 +734,8 @@ SMOOTH MENU ANIMATION
     }
 
 }
-/* ===== Fix mobile text alignment only ===== */
+/* Fix mobile alignment only */
 @media (max-width:768px){
-
-.carousel-caption .title{
-    margin-top:0 !important;
-    margin-bottom:20px !important;
-    text-align:center;
-}
 
 .carousel-caption .title-center{
     display:flex;
@@ -750,22 +744,8 @@ SMOOTH MENU ANIMATION
     justify-content:center;
 }
 
-/* จัดตำแหน่ง welcome */
-.carousel-caption .title-center h5{
-    margin-bottom:10px !important;
-    text-align:center;
-}
-
-/* ทำให้ระดับหัวข้อทุกภาษาเท่ากัน */
 .carousel-caption .title-center h1{
-    margin-bottom:15px !important;
-    min-height:2.3em;
-    text-align:center;
-    word-break:keep-all;
-}
-
-.carousel-caption p{
-    text-align:center;
+    min-height:2.2em;
 }
 
 }

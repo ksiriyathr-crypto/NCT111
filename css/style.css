@@ -757,3 +757,11 @@ html[lang="en"] .carousel-caption .title-center h1{
 }
 
 }
+/* Move English title down on mobile */
+@media (max-width:768px){
+
+html[lang="en"] .carousel-caption .title-center h1{
+    margin-top:25px !important;
+}
+
+}

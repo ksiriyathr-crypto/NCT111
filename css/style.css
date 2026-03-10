@@ -749,3 +749,11 @@ SMOOTH MENU ANIMATION
 }
 
 }
+/* Move English title slightly lower on mobile */
+@media (max-width:768px){
+
+html[lang="en"] .carousel-caption .title-center h1{
+    margin-top:10px;
+}
+
+}
